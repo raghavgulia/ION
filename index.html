@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.min.css" />
+    <script src="script.min.js" defer></script>
+
+  </head>
+  <body>
+    <video id="video" height="500px">
+      <source src="r.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="timeline">
+      <h4 id="startTime">00:00</h4>
+      <input type="range" name="" id="ass" min="0" value="0" max="90" />
+      <h4 id="endTime">00:00</h4>
+      <h4 id="remainingTime">00:00</h4>
+    </div>
+
+    <div class="controls">
+      <button id="again"><img src="assets/redo-alt-solid.svg" alt="" /></button>
+      <button id="back"><img src="assets/backward-solid.svg" alt="" /></button>
+      <button id="pauseplay"><img src="assets/play-solid.svg" alt="" /></button>
+      <button id="front"><img src="assets/forward-solid.svg" alt="" /></button>
+      <div class="sound">
+        <button id="speaker">
+          <img src="assets/volume-up-solid.svg" alt="" />
+        </button>
+        <input type="range" name="" id="ass2" min="0" value="100" max="100" />
+      </div>
+    </div>
+  </body>
+</html>
